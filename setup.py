@@ -6,7 +6,8 @@ with open('README.md', 'r') as oF:
 setup(
 	name='jsonb',
 	version='1.0.0',
-	description='JSON Better - A Python Library Used to simplify encoding/decoding JSON while handling special types',
+	description='JSON Better - A Python Library Used to simplify ' \
+				'encoding/decoding JSON while handling special types',
 	long_description=long_description,
 	long_description_content_type='text/markdown',
 	url='https://github.com/ouroboroscoding/jsonb',
